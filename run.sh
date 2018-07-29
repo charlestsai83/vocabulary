@@ -1,3 +1,4 @@
 #! /bin/bash
+source configure
 
-docker run -it vocabulary:latest
+docker run -it -v$SOURCE_DIR:/workspace vocabulary:latest

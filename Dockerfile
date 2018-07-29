@@ -4,3 +4,5 @@ RUN apt-get update
 
 RUN apt install -y python3
 RUN apt install -y sqlite
+
+WORKDIR /workspace
